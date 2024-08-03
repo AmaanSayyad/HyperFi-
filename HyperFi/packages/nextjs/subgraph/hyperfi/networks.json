@@ -1,0 +1,8 @@
+{
+  "polygon-zkevm-testnet": {
+    "HyperfiFactory": {
+      "address": "0x7b7f58e99f2abe1b25dcaf274d42a7914d76c74e",
+      "startBlock": 1830603
+    }
+  }
+}

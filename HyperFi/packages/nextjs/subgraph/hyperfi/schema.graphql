@@ -1,0 +1,86 @@
+type RoleAdminChanged @entity(immutable: true) {
+  id: Bytes!
+  role: Bytes! # bytes32
+  previousAdminRole: Bytes! # bytes32
+  newAdminRole: Bytes! # bytes32
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
+
+type RoleGranted @entity(immutable: true) {
+  id: Bytes!
+  role: Bytes! # bytes32
+  account: Bytes! # address
+  sender: Bytes! # address
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
+
+type RoleRevoked @entity(immutable: true) {
+  id: Bytes!
+  role: Bytes! # bytes32
+  account: Bytes! # address
+  sender: Bytes! # address
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
+
+type StudentAdded @entity(immutable: true) {
+  id: Bytes!
+  HyperfiFactory_id: BigInt! # uint256
+  firstname: String! # string
+  lastname: String! # string
+  birthdate: BigInt! # uint256
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
+
+type StudentDeleted @entity(immutable: true) {
+  id: Bytes!
+  HyperfiFactory_id: BigInt! # uint256
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
+
+type StudentEdited @entity(immutable: true) {
+  id: Bytes!
+  HyperfiFactory_id: BigInt! # uint256
+  firstname: String! # string
+  lastname: String! # string
+  birthdate: BigInt! # uint256
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
+
+type certificationEmited @entity(immutable: true) {
+  id: Bytes!
+  studentId: BigInt! # uint256
+  appreciation: Int! # uint8
+  degree: Int! # uint8
+  program: Int! # uint8
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
+
+type multiSigCleared @entity(immutable: true) {
+  id: Bytes!
+  multiSigName: Bytes! # bytes32
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
+
+type multiSigSigned @entity(immutable: true) {
+  id: Bytes!
+  multiSigName: Bytes! # bytes32
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}

@@ -1,0 +1,21 @@
+type Deposit @entity {
+  id: ID!
+  user: Bytes!
+  daiAmount: BigInt!
+  usdcAmount: BigInt!
+  cbdcAmount: BigInt!
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
+
+type Withdraw @entity {
+  id: ID!
+  user: Bytes!
+  daiAmount: BigInt!
+  usdcAmount: BigInt!
+  cbdcAmount: BigInt!
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
