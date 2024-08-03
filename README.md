@@ -15,6 +15,7 @@ HyperFi addresses the challenge of financial exclusion by providing a user-frien
 - **Streamlined KYC:** Secure staking without individual KYC for financial accessibility.
 - **Compunder Calculator:** The Platform offers it users to calculate the growth of their investment for the duration.
 - **Trivago of Exchanges:** HyperFi acts as a Aggregator that scans all the Exchanges and provides the list of the APY of all exchanges and lets the user decide in which exchange their money should be staked/ invested with a power index for each exchange.
+- **Xenea Blockchain:** Ensures transparency, security, and efficiency in all transactions.
 
 ### Challenges we ran into
 - Encountered intricacies while integrating with various DeFi strategies and protocols.
