@@ -25,7 +25,13 @@ HyperFi is a decentralized finance (DeFi) platform aimed at simplifying financia
 ---
 
 ## User Flow:
+<img width="341" alt="318241315-99406b1c-d8d9-425c-b1f0-e0a8675e0602" src="https://github.com/user-attachments/assets/cf811153-7ce2-4d9b-9f6a-1a7eadce05c2">
 
 ## Deposit and Withdraw Logic:
+<img width="561" alt="318241555-b494e556-1613-4c20-98fa-1b6ab47dc817" src="https://github.com/user-attachments/assets/322a4db8-a2a0-4800-bf8b-005a468593cc">
+<img width="365" alt="318241550-ab6a3957-36c9-40ec-85bd-f2efd24c68a1" src="https://github.com/user-attachments/assets/5a7476af-94c5-44cd-bb47-d3e0dcdba391">
 
 ## Yield Strategy and Aggregator Farming:
+<img width="556" alt="318241321-4e3cb7d7-879c-4c25-92f6-11d432901bd1" src="https://github.com/user-attachments/assets/07372a18-0dac-4b9b-b5eb-40e21dbf4b7f">
+
+![318241361-5e668462-2bd2-4a9c-9b65-3e9dbcba17f3](https://github.com/user-attachments/assets/9496d710-81d9-44ac-b695-001e0a2495e0)
